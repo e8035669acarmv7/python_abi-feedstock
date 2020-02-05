@@ -9,7 +9,7 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- '3.6'
+- '2.7'
 python_abi_tag:
 - cp27mu
 python_impl:

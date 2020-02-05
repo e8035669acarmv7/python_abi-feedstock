@@ -1,7 +1,7 @@
 python_abi_tag:
  - cp27mu  # [linux]
  - cp27m   # [not linux]
- - cp35m
+ - cp35m   # [not (aarch64 or ppc64le)]
  - cp36m
  - cp37m
  - cp38
@@ -10,7 +10,7 @@ python_abi_tag:
 
 python_requirement:
  - 2.7.*
- - 3.5.*
+ - 3.5.*   # [not (aarch64 or ppc64le)]
  - 3.6.*
  - 3.7.*
  - 3.8.*
@@ -19,7 +19,7 @@ python_requirement:
 
 python_version:
  - 2.7
- - 3.5
+ - 3.5     # [not (aarch64 or ppc64le)]
  - 3.6
  - 3.7
  - 3.8
@@ -28,12 +28,21 @@ python_version:
 
 python_impl:
  - cpython
- - cpython
+ - cpython  # [not (aarch64 or ppc64le)]
  - cpython
  - cpython
  - cpython
  - pypy
  - pypy
+
+python:
+ - "2.7"
+c_compiler:
+ - "*"
+cxx_compiler:
+ - "*"
+vc:
+ - "*"
 
 zip_keys:
  -

@@ -15,15 +15,15 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- '3.7'
+- '2.7'
 python_abi_tag:
-- cp38
+- cp27mu
 python_impl:
 - cpython
 python_requirement:
-- 3.8.*
+- 2.7.*
 python_version:
-- '3.8'
+- '2.7'
 zip_keys:
 - - python_abi_tag
   - python_version
