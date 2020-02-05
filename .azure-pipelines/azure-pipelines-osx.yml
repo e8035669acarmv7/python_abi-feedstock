@@ -10,50 +10,50 @@ jobs:
   strategy:
     maxParallel: 8
     matrix:
-      osx_python2.7python_abi_tagcp27mpython_implcpythonpython_requirement2.7.*python_version2.7:
-        CONFIG: osx_python2.7python_abi_tagcp27mpython_implcpythonpython_requirement2.7.*python_version2.7
+      osx_python2.7python_abi_tagcp27mpython_implcpythonpython_requirement2.7._python_version2.7:
+        CONFIG: osx_python2.7python_abi_tagcp27mpython_implcpythonpython_requirement2.7._python_version2.7
         UPLOAD_PACKAGES: True
-      osx_python2.7python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5:
-        CONFIG: osx_python2.7python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5
+      osx_python2.7python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5:
+        CONFIG: osx_python2.7python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5
         UPLOAD_PACKAGES: True
-      osx_python2.7python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6:
-        CONFIG: osx_python2.7python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6
+      osx_python2.7python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6:
+        CONFIG: osx_python2.7python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6
         UPLOAD_PACKAGES: True
-      osx_python2.7python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7:
-        CONFIG: osx_python2.7python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7
+      osx_python2.7python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7:
+        CONFIG: osx_python2.7python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7
         UPLOAD_PACKAGES: True
-      osx_python2.7python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8:
-        CONFIG: osx_python2.7python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8
+      osx_python2.7python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8:
+        CONFIG: osx_python2.7python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8
         UPLOAD_PACKAGES: True
-      osx_python3.6python_abi_tagcp27mpython_implcpythonpython_requirement2.7.*python_version2.7:
-        CONFIG: osx_python3.6python_abi_tagcp27mpython_implcpythonpython_requirement2.7.*python_version2.7
+      osx_python3.6python_abi_tagcp27mpython_implcpythonpython_requirement2.7._python_version2.7:
+        CONFIG: osx_python3.6python_abi_tagcp27mpython_implcpythonpython_requirement2.7._python_version2.7
         UPLOAD_PACKAGES: True
-      osx_python3.6python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5:
-        CONFIG: osx_python3.6python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5
+      osx_python3.6python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5:
+        CONFIG: osx_python3.6python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5
         UPLOAD_PACKAGES: True
-      osx_python3.6python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6:
-        CONFIG: osx_python3.6python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6
+      osx_python3.6python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6:
+        CONFIG: osx_python3.6python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6
         UPLOAD_PACKAGES: True
-      osx_python3.6python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7:
-        CONFIG: osx_python3.6python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7
+      osx_python3.6python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7:
+        CONFIG: osx_python3.6python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7
         UPLOAD_PACKAGES: True
-      osx_python3.6python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8:
-        CONFIG: osx_python3.6python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8
+      osx_python3.6python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8:
+        CONFIG: osx_python3.6python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8
         UPLOAD_PACKAGES: True
-      osx_python3.7python_abi_tagcp27mpython_implcpythonpython_requirement2.7.*python_version2.7:
-        CONFIG: osx_python3.7python_abi_tagcp27mpython_implcpythonpython_requirement2.7.*python_version2.7
+      osx_python3.7python_abi_tagcp27mpython_implcpythonpython_requirement2.7._python_version2.7:
+        CONFIG: osx_python3.7python_abi_tagcp27mpython_implcpythonpython_requirement2.7._python_version2.7
         UPLOAD_PACKAGES: True
-      osx_python3.7python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5:
-        CONFIG: osx_python3.7python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5
+      osx_python3.7python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5:
+        CONFIG: osx_python3.7python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5
         UPLOAD_PACKAGES: True
-      osx_python3.7python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6:
-        CONFIG: osx_python3.7python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6
+      osx_python3.7python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6:
+        CONFIG: osx_python3.7python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6
         UPLOAD_PACKAGES: True
-      osx_python3.7python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7:
-        CONFIG: osx_python3.7python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7
+      osx_python3.7python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7:
+        CONFIG: osx_python3.7python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7
         UPLOAD_PACKAGES: True
-      osx_python3.7python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8:
-        CONFIG: osx_python3.7python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8
+      osx_python3.7python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8:
+        CONFIG: osx_python3.7python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8
         UPLOAD_PACKAGES: True
 
   steps:
