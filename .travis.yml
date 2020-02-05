@@ -1,0 +1,34 @@
+# This file was generated automatically from conda-smithy. To update this configuration,
+# update the conda-forge.yml and/or the recipe/meta.yaml.
+
+language: generic
+
+env:
+  global:
+    # The BINSTAR_TOKEN secure variable. This is defined canonically in conda-forge.yml.
+    - secure: "GTq1sFrAi6Q6KGSm6G6aQfRP0cGXxOyKsaGw0U65Uoi5ete5AqsS1xRRcT7Muh7LC/cqr6dUdnwo2XEUHg2I7Nbc1Ssez4QBWXQ5p5HvKuX94CpA8LkW450rw+u4UH8ofI4Bc2+jb/7Sl/KCmqybirA9DgiuHv0pa/OAgiDKJGPC2TZ9dO9TmkG2PyoABXJTgs2PNJfbdNI1lE80Nc+wn8JZgtfkB/HwRcWdTiEHGEp2W4t79pYDTumJxNjvmMn0p8W6L2pvyrv9ftOhPYy10IZWpynqypCEHfS4nRGTtsp5x+Gt2fPuFoho6Cq1G0LR9Wi7dsVqeUMkDvncQg4TE2T5D49VZxqep4BNyyQ15OU6hXNBjbZOtYWuyZBz4zdhPf+dbh4W5ICYBNtxY7lapy71Br1jrespLl8IWSYg3TLxnF4cYG5QL7yvq/01U7PxcCIRrev9SWD3h78u6wnCLlnKXh65ASUSGIl/fH2wBOVJ5NJqUv3uRnCQElEsa1q7zWJezudS1bbZU2pBaRRU++/IVZ3dctq7/zXOmMcGYvHbRE+/bECeaRkXUdX0wdF0+ytfFqMirNsFPqM/oKTJIoHdS8GJEypaFqnRzOJGyR7Qg7vyd3xD/srTzf/zy9BehucHHMlab2T3qnoqFFH5LWh8HGEreBplcPXN6/PIUes="
+
+matrix:
+  include:
+    - env: CONFIG=linux_ppc64le_python_abi_tagcp27mupython_implcpythonpython_requirement2.7._python_version2.7 UPLOAD_PACKAGES=True PLATFORM=linux-ppc64le DOCKER_IMAGE=condaforge/linux-anvil-ppc64le
+      os: linux
+      arch: ppc64le
+
+    - env: CONFIG=linux_ppc64le_python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6 UPLOAD_PACKAGES=True PLATFORM=linux-ppc64le DOCKER_IMAGE=condaforge/linux-anvil-ppc64le
+      os: linux
+      arch: ppc64le
+
+    - env: CONFIG=linux_ppc64le_python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7 UPLOAD_PACKAGES=True PLATFORM=linux-ppc64le DOCKER_IMAGE=condaforge/linux-anvil-ppc64le
+      os: linux
+      arch: ppc64le
+
+    - env: CONFIG=linux_ppc64le_python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8 UPLOAD_PACKAGES=True PLATFORM=linux-ppc64le DOCKER_IMAGE=condaforge/linux-anvil-ppc64le
+      os: linux
+      arch: ppc64le
+
+script:
+  - export CI=travis
+  - export GIT_BRANCH="$TRAVIS_BRANCH"
+
+
+  - if [[ ${PLATFORM} =~ .*linux.* ]]; then ./.scripts/run_docker_build.sh; fi

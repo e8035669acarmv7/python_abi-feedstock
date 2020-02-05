@@ -10,64 +10,24 @@ jobs:
   strategy:
     maxParallel: 8
     matrix:
-      linux_python2.7python_abi_tagcp27mupython_implcpythonpython_requirement2.7.*python_version2.7:
-        CONFIG: linux_python2.7python_abi_tagcp27mupython_implcpythonpython_requirement2.7.*python_version2.7
+      linux_python_abi_tagcp27mupython_implcpythonpython_requirement2.7._python_version2.7:
+        CONFIG: linux_python_abi_tagcp27mupython_implcpythonpython_requirement2.7._python_version2.7
         UPLOAD_PACKAGES: True
         DOCKER_IMAGE: condaforge/linux-anvil-comp7
-      linux_python2.7python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5:
-        CONFIG: linux_python2.7python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5
+      linux_python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5:
+        CONFIG: linux_python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5
         UPLOAD_PACKAGES: True
         DOCKER_IMAGE: condaforge/linux-anvil-comp7
-      linux_python2.7python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6:
-        CONFIG: linux_python2.7python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6
+      linux_python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6:
+        CONFIG: linux_python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6
         UPLOAD_PACKAGES: True
         DOCKER_IMAGE: condaforge/linux-anvil-comp7
-      linux_python2.7python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7:
-        CONFIG: linux_python2.7python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7
+      linux_python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7:
+        CONFIG: linux_python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7
         UPLOAD_PACKAGES: True
         DOCKER_IMAGE: condaforge/linux-anvil-comp7
-      linux_python2.7python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8:
-        CONFIG: linux_python2.7python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8
-        UPLOAD_PACKAGES: True
-        DOCKER_IMAGE: condaforge/linux-anvil-comp7
-      linux_python3.6python_abi_tagcp27mupython_implcpythonpython_requirement2.7.*python_version2.7:
-        CONFIG: linux_python3.6python_abi_tagcp27mupython_implcpythonpython_requirement2.7.*python_version2.7
-        UPLOAD_PACKAGES: True
-        DOCKER_IMAGE: condaforge/linux-anvil-comp7
-      linux_python3.6python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5:
-        CONFIG: linux_python3.6python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5
-        UPLOAD_PACKAGES: True
-        DOCKER_IMAGE: condaforge/linux-anvil-comp7
-      linux_python3.6python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6:
-        CONFIG: linux_python3.6python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6
-        UPLOAD_PACKAGES: True
-        DOCKER_IMAGE: condaforge/linux-anvil-comp7
-      linux_python3.6python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7:
-        CONFIG: linux_python3.6python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7
-        UPLOAD_PACKAGES: True
-        DOCKER_IMAGE: condaforge/linux-anvil-comp7
-      linux_python3.6python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8:
-        CONFIG: linux_python3.6python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8
-        UPLOAD_PACKAGES: True
-        DOCKER_IMAGE: condaforge/linux-anvil-comp7
-      linux_python3.7python_abi_tagcp27mupython_implcpythonpython_requirement2.7.*python_version2.7:
-        CONFIG: linux_python3.7python_abi_tagcp27mupython_implcpythonpython_requirement2.7.*python_version2.7
-        UPLOAD_PACKAGES: True
-        DOCKER_IMAGE: condaforge/linux-anvil-comp7
-      linux_python3.7python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5:
-        CONFIG: linux_python3.7python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5
-        UPLOAD_PACKAGES: True
-        DOCKER_IMAGE: condaforge/linux-anvil-comp7
-      linux_python3.7python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6:
-        CONFIG: linux_python3.7python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6
-        UPLOAD_PACKAGES: True
-        DOCKER_IMAGE: condaforge/linux-anvil-comp7
-      linux_python3.7python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7:
-        CONFIG: linux_python3.7python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7
-        UPLOAD_PACKAGES: True
-        DOCKER_IMAGE: condaforge/linux-anvil-comp7
-      linux_python3.7python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8:
-        CONFIG: linux_python3.7python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8
+      linux_python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8:
+        CONFIG: linux_python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8
         UPLOAD_PACKAGES: True
         DOCKER_IMAGE: condaforge/linux-anvil-comp7
   steps:

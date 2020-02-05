@@ -10,64 +10,24 @@ jobs:
   strategy:
     maxParallel: 4
     matrix:
-      win_python2.7python_abi_tagcp27mpython_implcpythonpython_requirement2.7.*python_version2.7:
-        CONFIG: win_python2.7python_abi_tagcp27mpython_implcpythonpython_requirement2.7.*python_version2.7
+      win_python_abi_tagcp27mpython_implcpythonpython_requirement2.7._python_version2.7:
+        CONFIG: win_python_abi_tagcp27mpython_implcpythonpython_requirement2.7._python_version2.7
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
-      win_python2.7python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5:
-        CONFIG: win_python2.7python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5
+      win_python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5:
+        CONFIG: win_python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
-      win_python2.7python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6:
-        CONFIG: win_python2.7python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6
+      win_python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6:
+        CONFIG: win_python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
-      win_python2.7python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7:
-        CONFIG: win_python2.7python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7
+      win_python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7:
+        CONFIG: win_python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
-      win_python2.7python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8:
-        CONFIG: win_python2.7python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8
-        CONDA_BLD_PATH: D:\\bld\\
-        UPLOAD_PACKAGES: True
-      win_python3.6python_abi_tagcp27mpython_implcpythonpython_requirement2.7.*python_version2.7:
-        CONFIG: win_python3.6python_abi_tagcp27mpython_implcpythonpython_requirement2.7.*python_version2.7
-        CONDA_BLD_PATH: D:\\bld\\
-        UPLOAD_PACKAGES: True
-      win_python3.6python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5:
-        CONFIG: win_python3.6python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5
-        CONDA_BLD_PATH: D:\\bld\\
-        UPLOAD_PACKAGES: True
-      win_python3.6python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6:
-        CONFIG: win_python3.6python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6
-        CONDA_BLD_PATH: D:\\bld\\
-        UPLOAD_PACKAGES: True
-      win_python3.6python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7:
-        CONFIG: win_python3.6python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7
-        CONDA_BLD_PATH: D:\\bld\\
-        UPLOAD_PACKAGES: True
-      win_python3.6python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8:
-        CONFIG: win_python3.6python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8
-        CONDA_BLD_PATH: D:\\bld\\
-        UPLOAD_PACKAGES: True
-      win_python3.7python_abi_tagcp27mpython_implcpythonpython_requirement2.7.*python_version2.7:
-        CONFIG: win_python3.7python_abi_tagcp27mpython_implcpythonpython_requirement2.7.*python_version2.7
-        CONDA_BLD_PATH: D:\\bld\\
-        UPLOAD_PACKAGES: True
-      win_python3.7python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5:
-        CONFIG: win_python3.7python_abi_tagcp35mpython_implcpythonpython_requirement3.5.*python_version3.5
-        CONDA_BLD_PATH: D:\\bld\\
-        UPLOAD_PACKAGES: True
-      win_python3.7python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6:
-        CONFIG: win_python3.7python_abi_tagcp36mpython_implcpythonpython_requirement3.6.*python_version3.6
-        CONDA_BLD_PATH: D:\\bld\\
-        UPLOAD_PACKAGES: True
-      win_python3.7python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7:
-        CONFIG: win_python3.7python_abi_tagcp37mpython_implcpythonpython_requirement3.7.*python_version3.7
-        CONDA_BLD_PATH: D:\\bld\\
-        UPLOAD_PACKAGES: True
-      win_python3.7python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8:
-        CONFIG: win_python3.7python_abi_tagcp38python_implcpythonpython_requirement3.8.*python_version3.8
+      win_python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8:
+        CONFIG: win_python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8
         CONDA_BLD_PATH: D:\\bld\\
         UPLOAD_PACKAGES: True
   steps:
