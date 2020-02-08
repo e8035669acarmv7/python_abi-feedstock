@@ -4,17 +4,28 @@ package:
   name: python_abi
   version: {{ python_version }}
 
-build:
-  number: {{ build_num }}
-  string: {{ build_num }}_{{ python_abi_tag }}
-  track_features: pypy   # [python_impl == "pypy"]
-  skip: True  # [python_impl == "pypy"]
+outputs:
+  - name: python_abi
+    build:
+      number: {{ build_num }}
+      string: {{ build_num }}_{{ python_abi_tag }}
+      track_features: pypy   # [python_impl == "pypy"]
+      skip: True  # [python_impl == "pypy"]
 
-requirements:
-  run:
-    - python {{ python_requirement }}
-  run_constrained:
-    - pypy <0a0   # [python_impl == "cpython"]
+    requirements:
+      run:
+        - python {{ python_requirement }}
+      run_constrained:
+        - pypy <0a0   # [python_impl == "cpython"]
+
+  - name: cpython
+    build:
+      number: {{ build_num }}
+      string: {{ build_num }}_{{ python_abi_tag }}
+      skip: True   # [python_impl != "cpython"]
+    requirements:
+      run:
+        - python_abi {{ python_version }} {{ build_num }}_{{ python_abi_tag }}
 
 test:
   commands:
