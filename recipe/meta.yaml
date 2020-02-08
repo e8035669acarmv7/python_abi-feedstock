@@ -8,22 +8,15 @@ build:
   number: {{ build_num }}
   string: {{ build_num }}_{{ python_abi_tag }}
 
+requirements:
+  run:
+    - python {{ python_requirement }}
+  run_constrained:
+    - pypy <0a0
+
 test:
   commands:
     - python --version
-
-outputs:
-  - name: python_abi
-    requirements:
-      run:
-        - python {{ python_requirement }}
-      run_constrained:
-        - pypy <0a0
-
-  - name: cpython
-    requirements:
-      run:
-        - python_abi {{ python_version }} {{ build_num }}_{{ python_abi_tag }}
 
 about:
   home: https://github.com/conda-forge/python_abi-feedstock
