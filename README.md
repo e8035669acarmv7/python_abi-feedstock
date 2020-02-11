@@ -304,6 +304,4 @@ Feedstock Maintainers
 =====================
 
 * [@isuruf](https://github.com/isuruf/)
-* [@jjhelmus](https://github.com/jjhelmus/)
-* [@mattip](https://github.com/mattip/)
 
