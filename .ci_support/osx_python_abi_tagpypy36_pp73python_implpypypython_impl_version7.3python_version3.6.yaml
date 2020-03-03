@@ -15,15 +15,15 @@ pin_run_as_build:
 python:
 - '2.7'
 python_abi_tag:
-- cp36m
+- pypy36_pp73
 python_impl:
-- cpython
-python_requirement:
-- 3.6.*
+- pypy
+python_impl_version:
+- '7.3'
 python_version:
 - '3.6'
 zip_keys:
 - - python_abi_tag
   - python_version
-  - python_requirement
+  - python_impl_version
   - python_impl

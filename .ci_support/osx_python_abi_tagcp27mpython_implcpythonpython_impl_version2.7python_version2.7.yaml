@@ -1,9 +1,13 @@
+MACOSX_DEPLOYMENT_TARGET:
+- '10.9'
 channel_sources:
 - conda-forge,defaults
 channel_targets:
 - conda-forge main
-docker_image:
-- condaforge/linux-anvil-ppc64le
+macos_machine:
+- x86_64-apple-darwin13.4.0
+macos_min_version:
+- '10.9'
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -11,15 +15,15 @@ pin_run_as_build:
 python:
 - '2.7'
 python_abi_tag:
-- cp27mu
+- cp27m
 python_impl:
 - cpython
-python_requirement:
-- 2.7.*
+python_impl_version:
+- '2.7'
 python_version:
 - '2.7'
 zip_keys:
 - - python_abi_tag
   - python_version
-  - python_requirement
+  - python_impl_version
   - python_impl
