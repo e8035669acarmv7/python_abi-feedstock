@@ -1,4 +1,8 @@
 {% set build_num = 0 %}
+{% if python_impl_version is not defined %}
+{% set python_impl_version = "3.6" %}
+{% endif %}
+
 
 package:
   name: python_abi
