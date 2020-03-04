@@ -10,20 +10,23 @@ jobs:
   strategy:
     maxParallel: 8
     matrix:
-      osx_python_abi_tagcp27mpython_implcpythonpython_requirement2.7._python_version2.7:
-        CONFIG: osx_python_abi_tagcp27mpython_implcpythonpython_requirement2.7._python_version2.7
+      osx_python_abi_tagcp27mpython_implcpythonpython_impl_version2.7python_version2.7:
+        CONFIG: osx_python_abi_tagcp27mpython_implcpythonpython_impl_version2.7python_version2.7
         UPLOAD_PACKAGES: True
-      osx_python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5:
-        CONFIG: osx_python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5
+      osx_python_abi_tagcp35mpython_implcpythonpython_impl_version3.5python_version3.5:
+        CONFIG: osx_python_abi_tagcp35mpython_implcpythonpython_impl_version3.5python_version3.5
         UPLOAD_PACKAGES: True
-      osx_python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6:
-        CONFIG: osx_python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6
+      osx_python_abi_tagcp36mpython_implcpythonpython_impl_version3.6python_version3.6:
+        CONFIG: osx_python_abi_tagcp36mpython_implcpythonpython_impl_version3.6python_version3.6
         UPLOAD_PACKAGES: True
-      osx_python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7:
-        CONFIG: osx_python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7
+      osx_python_abi_tagcp37mpython_implcpythonpython_impl_version3.7python_version3.7:
+        CONFIG: osx_python_abi_tagcp37mpython_implcpythonpython_impl_version3.7python_version3.7
         UPLOAD_PACKAGES: True
-      osx_python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8:
-        CONFIG: osx_python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8
+      osx_python_abi_tagcp38python_implcpythonpython_impl_version3.8python_version3.8:
+        CONFIG: osx_python_abi_tagcp38python_implcpythonpython_impl_version3.8python_version3.8
+        UPLOAD_PACKAGES: True
+      osx_python_abi_tagpypy36_pp73python_implpypypython_impl_version7.3python_version3.6:
+        CONFIG: osx_python_abi_tagpypy36_pp73python_implpypypython_impl_version7.3python_version3.6
         UPLOAD_PACKAGES: True
 
   steps:

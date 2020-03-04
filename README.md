@@ -43,164 +43,192 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_aarch64_python_abi_tagcp27mupython_implcpythonpython_requirement2.7._python_version2.7</td>
+              <td>linux_aarch64_python_abi_tagcp27mupython_implcpythonpython_impl_version2.7python_version2.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python_abi_tagcp27mupython_implcpythonpython_requirement2.7._python_version2.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python_abi_tagcp27mupython_implcpythonpython_impl_version2.7python_version2.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6</td>
+              <td>linux_aarch64_python_abi_tagcp36mpython_implcpythonpython_impl_version3.6python_version3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python_abi_tagcp36mpython_implcpythonpython_impl_version3.6python_version3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7</td>
+              <td>linux_aarch64_python_abi_tagcp37mpython_implcpythonpython_impl_version3.7python_version3.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python_abi_tagcp37mpython_implcpythonpython_impl_version3.7python_version3.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8</td>
+              <td>linux_aarch64_python_abi_tagcp38python_implcpythonpython_impl_version3.8python_version3.8</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python_abi_tagcp38python_implcpythonpython_impl_version3.8python_version3.8" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_python_abi_tagcp27mupython_implcpythonpython_requirement2.7._python_version2.7</td>
+              <td>linux_aarch64_python_abi_tagpypy36_pp73python_implpypypython_impl_version7.3python_version3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python_abi_tagcp27mupython_implcpythonpython_requirement2.7._python_version2.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python_abi_tagpypy36_pp73python_implpypypython_impl_version7.3python_version3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6</td>
+              <td>linux_ppc64le_python_abi_tagcp27mupython_implcpythonpython_impl_version2.7python_version2.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python_abi_tagcp27mupython_implcpythonpython_impl_version2.7python_version2.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7</td>
+              <td>linux_ppc64le_python_abi_tagcp36mpython_implcpythonpython_impl_version3.6python_version3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python_abi_tagcp36mpython_implcpythonpython_impl_version3.6python_version3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8</td>
+              <td>linux_ppc64le_python_abi_tagcp37mpython_implcpythonpython_impl_version3.7python_version3.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python_abi_tagcp37mpython_implcpythonpython_impl_version3.7python_version3.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python_abi_tagcp27mupython_implcpythonpython_requirement2.7._python_version2.7</td>
+              <td>linux_ppc64le_python_abi_tagcp38python_implcpythonpython_impl_version3.8python_version3.8</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_python_abi_tagcp27mupython_implcpythonpython_requirement2.7._python_version2.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python_abi_tagcp38python_implcpythonpython_impl_version3.8python_version3.8" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5</td>
+              <td>linux_ppc64le_python_abi_tagpypy36_pp73python_implpypypython_impl_version7.3python_version3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python_abi_tagpypy36_pp73python_implpypypython_impl_version7.3python_version3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6</td>
+              <td>linux_python_abi_tagcp27mupython_implcpythonpython_impl_version2.7python_version2.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_python_abi_tagcp27mupython_implcpythonpython_impl_version2.7python_version2.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7</td>
+              <td>linux_python_abi_tagcp35mpython_implcpythonpython_impl_version3.5python_version3.5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_python_abi_tagcp35mpython_implcpythonpython_impl_version3.5python_version3.5" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8</td>
+              <td>linux_python_abi_tagcp36mpython_implcpythonpython_impl_version3.6python_version3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_python_abi_tagcp36mpython_implcpythonpython_impl_version3.6python_version3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python_abi_tagcp27mpython_implcpythonpython_requirement2.7._python_version2.7</td>
+              <td>linux_python_abi_tagcp37mpython_implcpythonpython_impl_version3.7python_version3.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=osx&configuration=osx_python_abi_tagcp27mpython_implcpythonpython_requirement2.7._python_version2.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_python_abi_tagcp37mpython_implcpythonpython_impl_version3.7python_version3.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5</td>
+              <td>linux_python_abi_tagcp38python_implcpythonpython_impl_version3.8python_version3.8</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=osx&configuration=osx_python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_python_abi_tagcp38python_implcpythonpython_impl_version3.8python_version3.8" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6</td>
+              <td>linux_python_abi_tagpypy36_pp73python_implpypypython_impl_version7.3python_version3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=osx&configuration=osx_python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_python_abi_tagpypy36_pp73python_implpypypython_impl_version7.3python_version3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7</td>
+              <td>osx_python_abi_tagcp27mpython_implcpythonpython_impl_version2.7python_version2.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=osx&configuration=osx_python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=osx&configuration=osx_python_abi_tagcp27mpython_implcpythonpython_impl_version2.7python_version2.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8</td>
+              <td>osx_python_abi_tagcp35mpython_implcpythonpython_impl_version3.5python_version3.5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=osx&configuration=osx_python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=osx&configuration=osx_python_abi_tagcp35mpython_implcpythonpython_impl_version3.5python_version3.5" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_python_abi_tagcp27mpython_implcpythonpython_requirement2.7._python_version2.7</td>
+              <td>osx_python_abi_tagcp36mpython_implcpythonpython_impl_version3.6python_version3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=win&configuration=win_python_abi_tagcp27mpython_implcpythonpython_requirement2.7._python_version2.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=osx&configuration=osx_python_abi_tagcp36mpython_implcpythonpython_impl_version3.6python_version3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5</td>
+              <td>osx_python_abi_tagcp37mpython_implcpythonpython_impl_version3.7python_version3.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=win&configuration=win_python_abi_tagcp35mpython_implcpythonpython_requirement3.5._python_version3.5" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=osx&configuration=osx_python_abi_tagcp37mpython_implcpythonpython_impl_version3.7python_version3.7" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6</td>
+              <td>osx_python_abi_tagcp38python_implcpythonpython_impl_version3.8python_version3.8</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=win&configuration=win_python_abi_tagcp36mpython_implcpythonpython_requirement3.6._python_version3.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=osx&configuration=osx_python_abi_tagcp38python_implcpythonpython_impl_version3.8python_version3.8" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7</td>
+              <td>osx_python_abi_tagpypy36_pp73python_implpypypython_impl_version7.3python_version3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=win&configuration=win_python_abi_tagcp37mpython_implcpythonpython_requirement3.7._python_version3.7" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=osx&configuration=osx_python_abi_tagpypy36_pp73python_implpypypython_impl_version7.3python_version3.6" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8</td>
+              <td>win_python_abi_tagcp27mpython_impl_version2.7python_version2.7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=win&configuration=win_python_abi_tagcp38python_implcpythonpython_requirement3.8._python_version3.8" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=win&configuration=win_python_abi_tagcp27mpython_impl_version2.7python_version2.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_python_abi_tagcp35mpython_impl_version3.5python_version3.5</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=win&configuration=win_python_abi_tagcp35mpython_impl_version3.5python_version3.5" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_python_abi_tagcp36mpython_impl_version3.6python_version3.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=win&configuration=win_python_abi_tagcp36mpython_impl_version3.6python_version3.6" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_python_abi_tagcp37mpython_impl_version3.7python_version3.7</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=win&configuration=win_python_abi_tagcp37mpython_impl_version3.7python_version3.7" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_python_abi_tagcp38python_impl_version3.8python_version3.8</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=win&configuration=win_python_abi_tagcp38python_impl_version3.8python_version3.8" alt="variant">
                 </a>
               </td>
             </tr>
