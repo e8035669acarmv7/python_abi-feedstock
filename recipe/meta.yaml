@@ -18,7 +18,7 @@ requirements:
     - pypy{{ python_version }} {{ python_impl_version }}.*  # [python_impl == "pypy"]
   run_constrained:
     - pypy <0a0                                                                         # [python_impl == "cpython"]
-    - python {{ python_version }} *_{{ python_impl_version.replace('.', '') }}_pypy     # [python_impl == "pypy"]
+    - python {{ python_version }}.* *_{{ python_impl_version.replace('.', '') }}_pypy     # [python_impl == "pypy"]
 
 test:
   commands:
