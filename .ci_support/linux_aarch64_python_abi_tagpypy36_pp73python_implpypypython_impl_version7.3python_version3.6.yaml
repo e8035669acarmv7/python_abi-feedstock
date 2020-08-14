@@ -24,6 +24,8 @@ python_impl_version:
 - '7.3'
 python_version:
 - '3.6'
+target_platform:
+- linux-aarch64
 zip_keys:
 - - python_abi_tag
   - python_version

@@ -18,6 +18,8 @@ python_impl_version:
 - '3.6'
 python_version:
 - '3.6'
+target_platform:
+- linux-ppc64le
 zip_keys:
 - - python_abi_tag
   - python_version
