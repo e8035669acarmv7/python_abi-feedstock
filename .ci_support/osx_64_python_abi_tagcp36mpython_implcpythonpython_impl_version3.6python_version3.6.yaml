@@ -15,13 +15,15 @@ pin_run_as_build:
 python:
 - '2.7'
 python_abi_tag:
-- cp27m
+- cp36m
 python_impl:
 - cpython
 python_impl_version:
-- '2.7'
+- '3.6'
 python_version:
-- '2.7'
+- '3.6'
+target_platform:
+- osx-64
 zip_keys:
 - - python_abi_tag
   - python_version
