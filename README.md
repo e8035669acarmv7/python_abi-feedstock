@@ -5,11 +5,9 @@ Home: https://github.com/conda-forge/python_abi-feedstock
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python_abi-feedstock/blob/master/LICENSE.txt)
 
 Summary: Metapackage to select python implementation
-
-
 
 Current build status
 ====================
@@ -78,6 +76,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_64_python_abi_tagcp39python_implcpythonpython_impl_version3.9python_version3.9</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_64_python_abi_tagcp39python_implcpythonpython_impl_version3.9python_version3.9" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_64_python_abi_tagpypy36_pp73python_implpypypython_impl_version7.3python_version3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
@@ -113,6 +118,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_aarch64_python_abi_tagcp39python_implcpythonpython_impl_version3.9python_version3.9</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_python_abi_tagcp39python_implcpythonpython_impl_version3.9python_version3.9" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_aarch64_python_abi_tagpypy36_pp73python_implpypypython_impl_version7.3python_version3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
@@ -145,6 +157,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python_abi_tagcp38python_implcpythonpython_impl_version3.8python_version3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_python_abi_tagcp39python_implcpythonpython_impl_version3.9python_version3.9</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_python_abi_tagcp39python_implcpythonpython_impl_version3.9python_version3.9" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -190,6 +209,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_64_python_abi_tagcp39python_implcpythonpython_impl_version3.9python_version3.9</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=osx&configuration=osx_64_python_abi_tagcp39python_implcpythonpython_impl_version3.9python_version3.9" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_python_abi_tagpypy36_pp73python_implpypypython_impl_version7.3python_version3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
@@ -232,6 +258,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_arm64_python_abi_tagcp39python_implcpythonpython_impl_version3.9python_version3.9</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_python_abi_tagcp39python_implcpythonpython_impl_version3.9python_version3.9" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_arm64_python_abi_tagpypy36_pp73python_implpypypython_impl_version7.3python_version3.6</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
@@ -271,6 +304,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=win&configuration=win_64_python_abi_tagcp38python_impl_version3.8python_version3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python_abi_tagcp39python_impl_version3.9python_version3.9</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=master&jobName=win&configuration=win_64_python_abi_tagcp39python_impl_version3.9python_version3.9" alt="variant">
                 </a>
               </td>
             </tr>

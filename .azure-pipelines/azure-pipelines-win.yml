@@ -23,6 +23,9 @@ jobs:
       win_64_python_abi_tagcp38python_impl_version3.8python_version3.8:
         CONFIG: win_64_python_abi_tagcp38python_impl_version3.8python_version3.8
         UPLOAD_PACKAGES: 'True'
+      win_64_python_abi_tagcp39python_impl_version3.9python_version3.9:
+        CONFIG: win_64_python_abi_tagcp39python_impl_version3.9python_version3.9
+        UPLOAD_PACKAGES: 'True'
     maxParallel: 4
   timeoutInMinutes: 360
   variables:
@@ -65,7 +68,7 @@ jobs:
 
     - task: CondaEnvironment@1
       inputs:
-        packageSpecs: 'python=3.6 conda-build conda conda-forge::conda-forge-ci-setup=3 pip' # Optional
+        packageSpecs: 'python=3.6 conda-build conda "conda-forge-ci-setup=3" pip' # Optional
         installOptions: "-c conda-forge"
         updateConda: true
       displayName: Install conda-build and activate environment
