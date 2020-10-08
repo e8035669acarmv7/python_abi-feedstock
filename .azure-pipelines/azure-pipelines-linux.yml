@@ -28,6 +28,10 @@ jobs:
         CONFIG: linux_64_python_abi_tagcp38python_implcpythonpython_impl_version3.8python_version3.8
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: condaforge/linux-anvil-comp7
+      linux_64_python_abi_tagcp39python_implcpythonpython_impl_version3.9python_version3.9:
+        CONFIG: linux_64_python_abi_tagcp39python_implcpythonpython_impl_version3.9python_version3.9
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: condaforge/linux-anvil-comp7
       linux_64_python_abi_tagpypy36_pp73python_implpypypython_impl_version7.3python_version3.6:
         CONFIG: linux_64_python_abi_tagpypy36_pp73python_implpypypython_impl_version7.3python_version3.6
         UPLOAD_PACKAGES: 'True'
