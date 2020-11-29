@@ -29,7 +29,7 @@ python_version:
  - 3.6     # [not win64]
  - 3.7     # [not win64]
 
-python_impl:
+python_implementation:
  - cpython
  - cpython  # [not (aarch64 or ppc64le)]
  - cpython
@@ -39,8 +39,13 @@ python_impl:
  - pypy    # [not win64]
  - pypy    # [not win64]
 
+# Following are dummy keys to fix rerendering
 python:
  - "2.7"
+python_impl:
+ - '*'
+numpy:
+ - '1.16'
 c_compiler:
  - "*"
 cxx_compiler:
@@ -53,4 +58,4 @@ zip_keys:
    - python_abi_tag
    - python_version
    - python_impl_version
-   - python_impl
+   - python_implementation

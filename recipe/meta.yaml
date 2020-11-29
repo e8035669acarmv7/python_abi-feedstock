@@ -15,16 +15,16 @@ build:
 
 requirements:
   run:
-    - python {{ python_impl_version }}.*                    # [python_impl == "cpython"]
-    - pypy{{ python_version }} {{ python_impl_version }}.*  # [python_impl == "pypy"]
+    - python {{ python_impl_version }}.*                    # [python_implementation == "cpython"]
+    - pypy{{ python_version }} {{ python_impl_version }}.*  # [python_implementation == "pypy"]
   run_constrained:
-    - pypy <0a0                                                                         # [python_impl == "cpython"]
-    - python {{ python_version }}.* *_{{ python_impl_version.replace('.', '') }}_pypy     # [python_impl == "pypy"]
+    - pypy <0a0                                                                         # [python_implementation == "cpython"]
+    - python {{ python_version }}.* *_{{ python_impl_version.replace('.', '') }}_pypy     # [python_implementation == "pypy"]
 
 test:
   commands:
-    - python --version  # [python_impl == "cpython"]
-    - pypy3 --version   # [python_impl == "pypy"]
+    - python --version  # [python_implementation == "cpython"]
+    - pypy3 --version   # [python_implementation == "pypy"]
 
 about:
   home: https://github.com/conda-forge/python_abi-feedstock
