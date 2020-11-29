@@ -11,15 +11,19 @@ python:
 python_abi_tag:
 - cp27m
 python_impl:
-- cpython
+- '*'
 python_impl_version:
 - '2.7'
+python_implementation:
+- cpython
 python_version:
 - '2.7'
 target_platform:
 - win-64
 zip_keys:
+- - python
+  - python_impl
 - - python_abi_tag
   - python_version
   - python_impl_version
-  - python_impl
+  - python_implementation

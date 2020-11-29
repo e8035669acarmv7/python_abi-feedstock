@@ -1,7 +1,11 @@
+MACOSX_DEPLOYMENT_TARGET:
+- '10.9'
 channel_sources:
 - conda-forge,defaults
 channel_targets:
 - conda-forge main
+macos_machine:
+- x86_64-apple-darwin13.4.0
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -9,17 +13,17 @@ pin_run_as_build:
 python:
 - '2.7'
 python_abi_tag:
-- cp39
+- pypy36_pp73
 python_impl:
 - '*'
 python_impl_version:
-- '3.9'
+- '7.3'
 python_implementation:
-- cpython
+- pypy
 python_version:
-- '3.9'
+- '3.6'
 target_platform:
-- win-64
+- osx-64
 zip_keys:
 - - python
   - python_impl

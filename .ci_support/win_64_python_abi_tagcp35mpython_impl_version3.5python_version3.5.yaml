@@ -11,15 +11,19 @@ python:
 python_abi_tag:
 - cp35m
 python_impl:
-- cpython
+- '*'
 python_impl_version:
 - '3.5'
+python_implementation:
+- cpython
 python_version:
 - '3.5'
 target_platform:
 - win-64
 zip_keys:
+- - python
+  - python_impl
 - - python_abi_tag
   - python_version
   - python_impl_version
-  - python_impl
+  - python_implementation
