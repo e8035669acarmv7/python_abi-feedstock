@@ -8,12 +8,6 @@ jobs:
     vmImage: macOS-10.15
   strategy:
     matrix:
-      osx_64_python_abi_tagcp27mpython_impl_version2.7python_implementationcpythonpython_version2.7:
-        CONFIG: osx_64_python_abi_tagcp27mpython_impl_version2.7python_implementationcpythonpython_version2.7
-        UPLOAD_PACKAGES: 'True'
-      osx_64_python_abi_tagcp35mpython_impl_version3.5python_implementationcpythonpython_version3.5:
-        CONFIG: osx_64_python_abi_tagcp35mpython_impl_version3.5python_implementationcpythonpython_version3.5
-        UPLOAD_PACKAGES: 'True'
       osx_64_python_abi_tagcp36mpython_impl_version3.6python_implementationcpythonpython_version3.6:
         CONFIG: osx_64_python_abi_tagcp36mpython_impl_version3.6python_implementationcpythonpython_version3.6
         UPLOAD_PACKAGES: 'True'
@@ -31,12 +25,6 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       osx_64_python_abi_tagpypy37_pp73python_impl_version7.3python_implementationpypypython_version3.7:
         CONFIG: osx_64_python_abi_tagpypy37_pp73python_impl_version7.3python_implementationpypypython_version3.7
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_python_abi_tagcp27mpython_impl_version2.7python_implementationcpythonpython_version2.7:
-        CONFIG: osx_arm64_python_abi_tagcp27mpython_impl_version2.7python_implementationcpythonpython_version2.7
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_python_abi_tagcp35mpython_impl_version3.5python_implementationcpythonpython_version3.5:
-        CONFIG: osx_arm64_python_abi_tagcp35mpython_impl_version3.5python_implementationcpythonpython_version3.5
         UPLOAD_PACKAGES: 'True'
       osx_arm64_python_abi_tagcp36mpython_impl_version3.6python_implementationcpythonpython_version3.6:
         CONFIG: osx_arm64_python_abi_tagcp36mpython_impl_version3.6python_implementationcpythonpython_version3.6
