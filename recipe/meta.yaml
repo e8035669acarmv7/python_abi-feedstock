@@ -1,4 +1,4 @@
-{% set build_num = 1 %}
+{% set build_num = 2 %}
 {% if python_impl_version is not defined %}
 {% set python_impl_version = "3.6" %}
 {% endif %}
@@ -11,7 +11,8 @@ package:
 build:
   number: {{ build_num }}
   string: {{ build_num }}_{{ python_abi_tag }}
-
+  track_features:  # [python_implementation == "pypy"]
+    - pypy         # [python_implementation == "pypy"]
 
 requirements:
   run:
