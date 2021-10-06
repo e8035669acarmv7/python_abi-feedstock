@@ -8,8 +8,8 @@ jobs:
     vmImage: ubuntu-latest
   strategy:
     matrix:
-      linux_64_python_abi_tagcp36mpython_impl_version3.6python_implementationcpythonpython_version3.6:
-        CONFIG: linux_64_python_abi_tagcp36mpython_impl_version3.6python_implementationcpythonpython_version3.6
+      linux_64_python_abi_tagcp310python_impl_version3.10python_implementationcpythonpython_version3.10:
+        CONFIG: linux_64_python_abi_tagcp310python_impl_version3.10python_implementationcpythonpython_version3.10
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
       linux_64_python_abi_tagcp37mpython_impl_version3.7python_implementationcpythonpython_version3.7:

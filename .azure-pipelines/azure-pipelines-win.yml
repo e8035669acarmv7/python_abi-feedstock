@@ -8,8 +8,8 @@ jobs:
     vmImage: vs2017-win2016
   strategy:
     matrix:
-      win_64_python_abi_tagcp36mpython_impl_version3.6python_implementationcpythonpython_version3.6:
-        CONFIG: win_64_python_abi_tagcp36mpython_impl_version3.6python_implementationcpythonpython_version3.6
+      win_64_python_abi_tagcp310python_impl_version3.10python_implementationcpythonpython_version3.10:
+        CONFIG: win_64_python_abi_tagcp310python_impl_version3.10python_implementationcpythonpython_version3.10
         UPLOAD_PACKAGES: 'True'
       win_64_python_abi_tagcp37mpython_impl_version3.7python_implementationcpythonpython_version3.7:
         CONFIG: win_64_python_abi_tagcp37mpython_impl_version3.7python_implementationcpythonpython_version3.7
@@ -98,7 +98,7 @@ jobs:
 
     - script: |
         call activate base
-        conda.exe build "recipe" -m .ci_support\%CONFIG%.yaml
+        conda.exe build "recipe" -m .ci_support\%CONFIG%.yaml --suppress-variables
       displayName: Build recipe
       env:
         PYTHONUNBUFFERED: 1

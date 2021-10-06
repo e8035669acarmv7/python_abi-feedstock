@@ -1,6 +1,6 @@
 ---
 kind: pipeline
-name: linux_aarch64_python_abi_tagcp36mpy_ha8bbac07a1
+name: linux_aarch64_python_abi_tagcp310py_h08d2dfdc78
 
 platform:
   os: linux
@@ -10,7 +10,7 @@ steps:
 - name: Install and build
   image: quay.io/condaforge/linux-anvil-aarch64
   environment:
-    CONFIG: linux_aarch64_python_abi_tagcp36mpython_impl_version3.6python_implementationcpythonpython_version3.6
+    CONFIG: linux_aarch64_python_abi_tagcp310python_impl_version3.10python_implementationcpythonpython_version3.10
     UPLOAD_PACKAGES: True
     PLATFORM: linux-aarch64
     BINSTAR_TOKEN:

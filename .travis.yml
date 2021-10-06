@@ -7,7 +7,7 @@ language: generic
 
 matrix:
   include:
-    - env: CONFIG=linux_ppc64le_python_abi_tagcp36mpython_impl_version3.6python_implementationcpythonpython_version3.6 UPLOAD_PACKAGES=True PLATFORM=linux-ppc64le DOCKER_IMAGE=quay.io/condaforge/linux-anvil-ppc64le
+    - env: CONFIG=linux_ppc64le_python_abi_tagcp310python_impl_version3.10python_implementationcpythonpython_version3.10 UPLOAD_PACKAGES=True PLATFORM=linux-ppc64le DOCKER_IMAGE=quay.io/condaforge/linux-anvil-ppc64le
       os: linux
       arch: ppc64le
       dist: focal
