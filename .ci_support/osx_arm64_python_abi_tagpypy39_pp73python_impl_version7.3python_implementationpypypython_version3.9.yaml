@@ -13,7 +13,7 @@ pin_run_as_build:
 python:
 - '2.7'
 python_abi_tag:
-- pypy37_pp73
+- pypy39_pp73
 python_impl:
 - '*'
 python_impl_version:
@@ -21,7 +21,7 @@ python_impl_version:
 python_implementation:
 - pypy
 python_version:
-- '3.7'
+- '3.9'
 target_platform:
 - osx-arm64
 zip_keys:

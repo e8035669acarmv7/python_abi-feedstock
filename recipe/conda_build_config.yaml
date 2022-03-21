@@ -3,15 +3,15 @@ python_abi_tag:
  - cp38
  - cp39
  - cp310
- - pypy36_pp73  # [not win64]
- - pypy37_pp73
+ - pypy38_pp73
+ - pypy39_pp73
 
 python_impl_version:
  - 3.7
  - 3.8
  - 3.9
  - 3.10
- - 7.3   # [not win64]
+ - 7.3
  - 7.3
 
 python_version:
@@ -19,15 +19,15 @@ python_version:
  - 3.8
  - 3.9
  - 3.10
- - 3.6     # [not win64]
- - 3.7
+ - 3.8
+ - 3.9
 
 python_implementation:
  - cpython
  - cpython
  - cpython
  - cpython
- - pypy    # [not win64]
+ - pypy
  - pypy
 
 # Following are dummy keys to fix rerendering
