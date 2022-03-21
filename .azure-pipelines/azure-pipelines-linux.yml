@@ -11,27 +11,75 @@ jobs:
       linux_64_python_abi_tagcp310python_impl_version3.10python_implementationcpythonpython_version3.10:
         CONFIG: linux_64_python_abi_tagcp310python_impl_version3.10python_implementationcpythonpython_version3.10
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_python_abi_tagcp37mpython_impl_version3.7python_implementationcpythonpython_version3.7:
         CONFIG: linux_64_python_abi_tagcp37mpython_impl_version3.7python_implementationcpythonpython_version3.7
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_python_abi_tagcp38python_impl_version3.8python_implementationcpythonpython_version3.8:
         CONFIG: linux_64_python_abi_tagcp38python_impl_version3.8python_implementationcpythonpython_version3.8
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_python_abi_tagcp39python_impl_version3.9python_implementationcpythonpython_version3.9:
         CONFIG: linux_64_python_abi_tagcp39python_impl_version3.9python_implementationcpythonpython_version3.9
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
-      linux_64_python_abi_tagpypy36_pp73python_impl_version7.3python_implementationpypypython_version3.6:
-        CONFIG: linux_64_python_abi_tagpypy36_pp73python_impl_version7.3python_implementationpypypython_version3.6
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_64_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8:
+        CONFIG: linux_64_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
-      linux_64_python_abi_tagpypy37_pp73python_impl_version7.3python_implementationpypypython_version3.7:
-        CONFIG: linux_64_python_abi_tagpypy37_pp73python_impl_version7.3python_implementationpypypython_version3.7
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_64_python_abi_tagpypy39_pp73python_impl_version7.3python_implementationpypypython_version3.9:
+        CONFIG: linux_64_python_abi_tagpypy39_pp73python_impl_version7.3python_implementationpypypython_version3.9
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-comp7
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_aarch64_python_abi_tagcp310python_impl_version3.10python_implementationcpythonpython_version3.10:
+        CONFIG: linux_aarch64_python_abi_tagcp310python_impl_version3.10python_implementationcpythonpython_version3.10
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
+      linux_aarch64_python_abi_tagcp37mpython_impl_version3.7python_implementationcpythonpython_version3.7:
+        CONFIG: linux_aarch64_python_abi_tagcp37mpython_impl_version3.7python_implementationcpythonpython_version3.7
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
+      linux_aarch64_python_abi_tagcp38python_impl_version3.8python_implementationcpythonpython_version3.8:
+        CONFIG: linux_aarch64_python_abi_tagcp38python_impl_version3.8python_implementationcpythonpython_version3.8
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
+      linux_aarch64_python_abi_tagcp39python_impl_version3.9python_implementationcpythonpython_version3.9:
+        CONFIG: linux_aarch64_python_abi_tagcp39python_impl_version3.9python_implementationcpythonpython_version3.9
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
+      linux_aarch64_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8:
+        CONFIG: linux_aarch64_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
+      linux_aarch64_python_abi_tagpypy39_pp73python_impl_version7.3python_implementationpypypython_version3.9:
+        CONFIG: linux_aarch64_python_abi_tagpypy39_pp73python_impl_version7.3python_implementationpypypython_version3.9
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
+      linux_ppc64le_python_abi_tagcp310python_impl_version3.10python_implementationcpythonpython_version3.10:
+        CONFIG: linux_ppc64le_python_abi_tagcp310python_impl_version3.10python_implementationcpythonpython_version3.10
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+      linux_ppc64le_python_abi_tagcp37mpython_impl_version3.7python_implementationcpythonpython_version3.7:
+        CONFIG: linux_ppc64le_python_abi_tagcp37mpython_impl_version3.7python_implementationcpythonpython_version3.7
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+      linux_ppc64le_python_abi_tagcp38python_impl_version3.8python_implementationcpythonpython_version3.8:
+        CONFIG: linux_ppc64le_python_abi_tagcp38python_impl_version3.8python_implementationcpythonpython_version3.8
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+      linux_ppc64le_python_abi_tagcp39python_impl_version3.9python_implementationcpythonpython_version3.9:
+        CONFIG: linux_ppc64le_python_abi_tagcp39python_impl_version3.9python_implementationcpythonpython_version3.9
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+      linux_ppc64le_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8:
+        CONFIG: linux_ppc64le_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+      linux_ppc64le_python_abi_tagpypy39_pp73python_impl_version7.3python_implementationpypypython_version3.9:
+        CONFIG: linux_ppc64le_python_abi_tagpypy39_pp73python_impl_version7.3python_implementationpypypython_version3.9
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
   timeoutInMinutes: 360
 
   steps:
@@ -52,6 +100,11 @@ jobs:
         export CI=azure
         export GIT_BRANCH=$BUILD_SOURCEBRANCHNAME
         export FEEDSTOCK_NAME=$(basename ${BUILD_REPOSITORY_NAME})
+        if [[ "${BUILD_REASON:-}" == "PullRequest" ]]; then
+          export IS_PR_BUILD="True"
+        else
+          export IS_PR_BUILD="False"
+        fi
         .scripts/run_docker_build.sh
     displayName: Run docker build
     env:

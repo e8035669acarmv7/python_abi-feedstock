@@ -1,11 +1,11 @@
-cdt_name:
-- cos6
+MACOSX_DEPLOYMENT_TARGET:
+- '10.9'
 channel_sources:
 - conda-forge
 channel_targets:
 - conda-forge main
-docker_image:
-- quay.io/condaforge/linux-anvil-comp7
+macos_machine:
+- x86_64-apple-darwin13.4.0
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -13,7 +13,7 @@ pin_run_as_build:
 python:
 - '2.7'
 python_abi_tag:
-- pypy37_pp73
+- pypy39_pp73
 python_impl:
 - '*'
 python_impl_version:
@@ -21,12 +21,10 @@ python_impl_version:
 python_implementation:
 - pypy
 python_version:
-- '3.7'
+- '3.9'
 target_platform:
-- linux-64
+- osx-64
 zip_keys:
-- - cdt_name
-  - docker_image
 - - python
   - python_impl
 - - python_abi_tag

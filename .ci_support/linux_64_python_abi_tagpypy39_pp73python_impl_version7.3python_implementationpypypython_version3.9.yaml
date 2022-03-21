@@ -13,15 +13,15 @@ pin_run_as_build:
 python:
 - '2.7'
 python_abi_tag:
-- cp310
+- pypy39_pp73
 python_impl:
 - '*'
 python_impl_version:
-- '3.10'
+- '7.3'
 python_implementation:
-- cpython
+- pypy
 python_version:
-- '3.10'
+- '3.9'
 target_platform:
 - linux-64
 zip_keys:
