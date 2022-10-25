@@ -3,6 +3,7 @@ python_abi_tag:
  - cp38
  - cp39
  - cp310
+ - cp311
  - pypy38_pp73
  - pypy39_pp73
 
@@ -11,6 +12,7 @@ python_impl_version:
  - 3.8
  - 3.9
  - 3.10
+ - 3.11
  - 7.3
  - 7.3
 
@@ -19,10 +21,12 @@ python_version:
  - 3.8
  - 3.9
  - 3.10
+ - 3.11
  - 3.8
  - 3.9
 
 python_implementation:
+ - cpython
  - cpython
  - cpython
  - cpython
