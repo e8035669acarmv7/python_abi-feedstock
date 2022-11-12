@@ -1,4 +1,4 @@
-{% set build_num = 2 %}
+{% set build_num = 3 %}
 {% if python_impl_version is not defined %}
 {% set python_impl_version = "3.6" %}
 {% endif %}
@@ -11,21 +11,19 @@ package:
 build:
   number: {{ build_num }}
   string: {{ build_num }}_{{ python_abi_tag }}
-  track_features:  # [python_implementation == "pypy"]
-    - pypy         # [python_implementation == "pypy"]
+  track_features:         # [python_implementation != "cpython"]
+    - pypy                # [python_implementation == "pypy"]
+    - native_graalpy      # [python_implementation == "graalpy"]
 
 requirements:
-  run:
-    - python {{ python_impl_version }}.*                    # [python_implementation == "cpython"]
-    - pypy{{ python_version }} {{ python_impl_version }}.*  # [python_implementation == "pypy"]
   run_constrained:
-    - pypy <0a0                                                                         # [python_implementation == "cpython"]
-    - python {{ python_version }}.* *_{{ python_impl_version.replace('.', '') }}_pypy     # [python_implementation == "pypy"]
+    - python {{ python_version }}.* *_cpython                                                # [python_implementation == "cpython"]
+    - python {{ python_version }}.* *_{{ python_impl_version.replace('.', '') }}_pypy        # [python_implementation == "pypy"]
+    - python {{ python_version }}.* *_native_graalpy                                         # [python_implementation == "graalpy"]
 
 test:
   commands:
-    - python --version  # [python_implementation == "cpython"]
-    - pypy3 --version   # [python_implementation == "pypy"]
+    - echo "hello"
 
 about:
   home: https://github.com/conda-forge/python_abi-feedstock

@@ -1,0 +1,33 @@
+MACOSX_DEPLOYMENT_TARGET:
+- '10.9'
+channel_sources:
+- conda-forge
+channel_targets:
+- conda-forge main
+macos_machine:
+- x86_64-apple-darwin13.4.0
+pin_run_as_build:
+  python:
+    min_pin: x.x
+    max_pin: x.x
+python:
+- '2.7'
+python_abi_tag:
+- graalpy_38_native
+python_impl:
+- '*'
+python_impl_version:
+- '3.8'
+python_implementation:
+- graalpy
+python_version:
+- '3.8'
+target_platform:
+- osx-64
+zip_keys:
+- - python
+  - python_impl
+- - python_abi_tag
+  - python_version
+  - python_impl_version
+  - python_implementation

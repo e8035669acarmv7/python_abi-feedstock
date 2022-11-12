@@ -23,6 +23,9 @@ jobs:
       win_64_python_abi_tagcp39python_impl_version3.9python_implementationcpythonpython_version3.9:
         CONFIG: win_64_python_abi_tagcp39python_impl_version3.9python_implementationcpythonpython_version3.9
         UPLOAD_PACKAGES: 'True'
+      win_64_python_abi_taggraalpy_38_nativepython_impl_version3.8python_implementationgraalpypython_version3.8:
+        CONFIG: win_64_python_abi_taggraalpy_38_nativepython_impl_version3.8python_implementationgraalpypython_version3.8
+        UPLOAD_PACKAGES: 'True'
       win_64_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8:
         CONFIG: win_64_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8
         UPLOAD_PACKAGES: 'True'
@@ -53,7 +56,7 @@ jobs:
 
     - script: |
         call activate base
-        mamba.exe install 'python=3.9' conda-build conda pip boa 'conda-forge-ci-setup=3' -c conda-forge --strict-channel-priority --yes
+        mamba.exe install "python=3.9" conda-build conda pip boa conda-forge-ci-setup=3 "py-lief<0.12" -c conda-forge --strict-channel-priority --yes
       displayName: Install conda-build
 
     - script: set PYTHONUNBUFFERED=1
