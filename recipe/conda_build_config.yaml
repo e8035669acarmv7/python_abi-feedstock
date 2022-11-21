@@ -16,7 +16,7 @@ python_impl_version:
  - 3.11
  - 7.3
  - 7.3
- - 3.8
+ - 22.3
 
 python_version:
  - 3.7
