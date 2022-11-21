@@ -19,7 +19,7 @@ requirements:
   run_constrained:
     - python {{ python_version }}.* *_cpython                                                      # [python_implementation == "cpython"]
     - python {{ python_version }}.* *_{{ python_impl_version.replace('.', '') }}_pypy              # [python_implementation == "pypy"]
-    - python {{ python_version }}.* *_{{ python_impl_version.replace('.', '') }}_native_graalpy    # [python_implementation == "graalpy"]
+    - python {{ python_version }}.* *_native{{ python_impl_version.replace('.', '') }}_graalpy     # [python_implementation == "graalpy"]
 
 test:
   commands:
