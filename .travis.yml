@@ -32,6 +32,11 @@ matrix:
       arch: arm64
       dist: focal
 
+    - env: CONFIG=linux_aarch64_python_abi_taggraalpy_38_nativepython_impl_version3.8python_implementationgraalpypython_version3.8 UPLOAD_PACKAGES=True PLATFORM=linux-aarch64 DOCKER_IMAGE=quay.io/condaforge/linux-anvil-aarch64
+      os: linux
+      arch: arm64
+      dist: focal
+
     - env: CONFIG=linux_aarch64_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8 UPLOAD_PACKAGES=True PLATFORM=linux-aarch64 DOCKER_IMAGE=quay.io/condaforge/linux-anvil-aarch64
       os: linux
       arch: arm64
@@ -63,6 +68,11 @@ matrix:
       dist: focal
 
     - env: CONFIG=linux_ppc64le_python_abi_tagcp39python_impl_version3.9python_implementationcpythonpython_version3.9 UPLOAD_PACKAGES=True PLATFORM=linux-ppc64le DOCKER_IMAGE=quay.io/condaforge/linux-anvil-ppc64le
+      os: linux
+      arch: ppc64le
+      dist: focal
+
+    - env: CONFIG=linux_ppc64le_python_abi_taggraalpy_38_nativepython_impl_version3.8python_implementationgraalpypython_version3.8 UPLOAD_PACKAGES=True PLATFORM=linux-ppc64le DOCKER_IMAGE=quay.io/condaforge/linux-anvil-ppc64le
       os: linux
       arch: ppc64le
       dist: focal
