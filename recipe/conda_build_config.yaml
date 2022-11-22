@@ -6,7 +6,7 @@ python_abi_tag:
  - cp311
  - pypy38_pp73
  - pypy39_pp73
- - graalpy_38_native
+ - graalpy223_38_native
 
 python_impl_version:
  - 3.7
