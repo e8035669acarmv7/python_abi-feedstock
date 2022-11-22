@@ -23,8 +23,8 @@ jobs:
       win_64_python_abi_tagcp39python_impl_version3.9python_implementationcpythonpython_version3.9:
         CONFIG: win_64_python_abi_tagcp39python_impl_version3.9python_implementationcpythonpython_version3.9
         UPLOAD_PACKAGES: 'True'
-      win_64_python_abi_taggraalpy_38_nativepython_impl_version3.8python_implementationgraalpypython_version3.8:
-        CONFIG: win_64_python_abi_taggraalpy_38_nativepython_impl_version3.8python_implementationgraalpypython_version3.8
+      win_64_python_abi_taggraalpy223_38_nativepython_impl_version22.3python_implementationgraalpypython_version3.8:
+        CONFIG: win_64_python_abi_taggraalpy223_38_nativepython_impl_version22.3python_implementationgraalpypython_version3.8
         UPLOAD_PACKAGES: 'True'
       win_64_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8:
         CONFIG: win_64_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8
