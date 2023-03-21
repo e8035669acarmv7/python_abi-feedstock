@@ -1,11 +1,11 @@
-About python_abi
-================
+About python_abi-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python_abi-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/conda-forge/python_abi-feedstock
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python_abi-feedstock/blob/main/LICENSE.txt)
 
 Summary: Metapackage to select python implementation
 
@@ -76,6 +76,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_64_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_64_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=main">
@@ -129,6 +136,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python_abi_taggraalpy223_38_nativepython_impl_version22.3python_implementationgraalpypython_version3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -188,6 +202,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_ppc64le_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_ppc64le_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=main">
@@ -241,6 +262,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python_abi_taggraalpy223_38_nativepython_impl_version22.3python_implementationgraalpypython_version3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -300,6 +328,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_arm64_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_arm64_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=main">
@@ -353,6 +388,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python_abi_taggraalpy223_38_nativepython_impl_version22.3python_implementationgraalpypython_version3.8" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=9015&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/python_abi-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10" alt="variant">
                 </a>
               </td>
             </tr><tr>

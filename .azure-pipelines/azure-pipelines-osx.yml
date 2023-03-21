@@ -26,6 +26,9 @@ jobs:
       osx_64_python_abi_taggraalpy223_38_nativepython_impl_version22.3python_implementationgraalpypython_version3.8:
         CONFIG: osx_64_python_abi_taggraalpy223_38_nativepython_impl_version22.3python_implementationgraalpypython_version3.8
         UPLOAD_PACKAGES: 'True'
+      osx_64_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10:
+        CONFIG: osx_64_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10
+        UPLOAD_PACKAGES: 'True'
       osx_64_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8:
         CONFIG: osx_64_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8
         UPLOAD_PACKAGES: 'True'
@@ -49,6 +52,9 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       osx_arm64_python_abi_taggraalpy223_38_nativepython_impl_version22.3python_implementationgraalpypython_version3.8:
         CONFIG: osx_arm64_python_abi_taggraalpy223_38_nativepython_impl_version22.3python_implementationgraalpypython_version3.8
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10:
+        CONFIG: osx_arm64_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10
         UPLOAD_PACKAGES: 'True'
       osx_arm64_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8:
         CONFIG: osx_arm64_python_abi_tagpypy38_pp73python_impl_version7.3python_implementationpypypython_version3.8
