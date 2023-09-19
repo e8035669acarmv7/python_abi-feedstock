@@ -16,6 +16,10 @@ jobs:
         CONFIG: linux_64_python_abi_tagcp311python_impl_version3.11python_implementationcpythonpython_version3.11
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
+      linux_64_python_abi_tagcp312python_impl_version3.12python_implementationcpythonpython_version3.12:
+        CONFIG: linux_64_python_abi_tagcp312python_impl_version3.12python_implementationcpythonpython_version3.12
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_python_abi_tagcp37mpython_impl_version3.7python_implementationcpythonpython_version3.7:
         CONFIG: linux_64_python_abi_tagcp37mpython_impl_version3.7python_implementationcpythonpython_version3.7
         UPLOAD_PACKAGES: 'True'
@@ -47,11 +51,6 @@ jobs:
   timeoutInMinutes: 360
 
   steps:
-  - script: |
-         rm -rf /opt/ghc
-         df -h
-    displayName: Manage disk space
-
   # configure qemu binfmt-misc running.  This allows us to run docker containers
   # embedded qemu-static
   - script: |

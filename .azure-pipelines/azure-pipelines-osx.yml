@@ -14,6 +14,9 @@ jobs:
       osx_64_python_abi_tagcp311python_impl_version3.11python_implementationcpythonpython_version3.11:
         CONFIG: osx_64_python_abi_tagcp311python_impl_version3.11python_implementationcpythonpython_version3.11
         UPLOAD_PACKAGES: 'True'
+      osx_64_python_abi_tagcp312python_impl_version3.12python_implementationcpythonpython_version3.12:
+        CONFIG: osx_64_python_abi_tagcp312python_impl_version3.12python_implementationcpythonpython_version3.12
+        UPLOAD_PACKAGES: 'True'
       osx_64_python_abi_tagcp37mpython_impl_version3.7python_implementationcpythonpython_version3.7:
         CONFIG: osx_64_python_abi_tagcp37mpython_impl_version3.7python_implementationcpythonpython_version3.7
         UPLOAD_PACKAGES: 'True'
@@ -40,6 +43,9 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       osx_arm64_python_abi_tagcp311python_impl_version3.11python_implementationcpythonpython_version3.11:
         CONFIG: osx_arm64_python_abi_tagcp311python_impl_version3.11python_implementationcpythonpython_version3.11
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_python_abi_tagcp312python_impl_version3.12python_implementationcpythonpython_version3.12:
+        CONFIG: osx_arm64_python_abi_tagcp312python_impl_version3.12python_implementationcpythonpython_version3.12
         UPLOAD_PACKAGES: 'True'
       osx_arm64_python_abi_tagcp37mpython_impl_version3.7python_implementationcpythonpython_version3.7:
         CONFIG: osx_arm64_python_abi_tagcp37mpython_impl_version3.7python_implementationcpythonpython_version3.7
