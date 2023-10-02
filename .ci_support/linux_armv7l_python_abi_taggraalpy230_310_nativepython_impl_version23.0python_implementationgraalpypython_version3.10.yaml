@@ -1,11 +1,15 @@
-MACOSX_DEPLOYMENT_TARGET:
-- '11.0'
+BUILD:
+- armv7-conda_cos7-linux-gnueabihf
+cdt_arch:
+- armv7l
+cdt_name:
+- cos7
 channel_sources:
-- conda-forge
+- e8035669acarmv7,conda-forge
 channel_targets:
-- conda-forge main
-macos_machine:
-- arm64-apple-darwin20.0.0
+- e8035669acarmv7 main
+docker_image:
+- e8035669/linux-anvil-armv7l
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -13,17 +17,17 @@ pin_run_as_build:
 python:
 - '2.7'
 python_abi_tag:
-- pypy38_pp73
+- graalpy230_310_native
 python_impl:
 - '*'
 python_impl_version:
-- '7.3'
+- '23.0'
 python_implementation:
-- pypy
+- graalpy
 python_version:
-- '3.8'
+- '3.10'
 target_platform:
-- osx-arm64
+- linux-armv7l
 zip_keys:
 - - python
   - python_impl

@@ -1,68 +1,73 @@
 python_abi_tag:
- - cp37m
- - cp38
- - cp39
- - cp310
- - cp311
- - cp312
- - pypy38_pp73
- - pypy39_pp73
- - graalpy223_38_native
- - graalpy230_310_native
+- cp37m
+- cp38
+- cp39
+- cp310
+- cp311
+- cp312
+- pypy38_pp73
+- pypy39_pp73
+- graalpy223_38_native
+- graalpy230_310_native
 
 python_impl_version:
- - 3.7
- - 3.8
- - 3.9
- - 3.10
- - 3.11
- - 3.12
- - 7.3
- - 7.3
- - 22.3
- - 23.0
+- 3.7
+- 3.8
+- 3.9
+- 3.10
+- 3.11
+- 3.12
+- 7.3
+- 7.3
+- 22.3
+- 23.0
 
 python_version:
- - 3.7
- - 3.8
- - 3.9
- - 3.10
- - 3.11
- - 3.12
- - 3.8
- - 3.9
- - 3.8
- - 3.10
+- 3.7
+- 3.8
+- 3.9
+- 3.10
+- 3.11
+- 3.12
+- 3.8
+- 3.9
+- 3.8
+- 3.10
 
 python_implementation:
- - cpython
- - cpython
- - cpython
- - cpython
- - cpython
- - cpython
- - pypy
- - pypy
- - graalpy
- - graalpy
+- cpython
+- cpython
+- cpython
+- cpython
+- cpython
+- cpython
+- pypy
+- pypy
+- graalpy
+- graalpy
 
 # Following are dummy keys to fix rerendering
 python:
- - "2.7"
+- '2.7'
 python_impl:
- - '*'
+- '*'
 numpy:
- - '1.16'
+- '1.16'
 c_compiler:
- - "*"
+- '*'
 cxx_compiler:
- - "*"
+- '*'
 vc:
- - "*"
+- '*'
 
 zip_keys:
- -
-   - python_abi_tag
-   - python_version
-   - python_impl_version
-   - python_implementation
+- - python_abi_tag
+  - python_version
+  - python_impl_version
+  - python_implementation
+channel_sources:
+- e8035669acarmv7,conda-forge
+channel_targets:
+- e8035669acarmv7 main
+docker_image:
+- e8035669/linux-anvil-armv7l  # [os.environ.get("BUILD_PLATFORM") == "linux-armv7l"]

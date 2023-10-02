@@ -1,7 +1,15 @@
+BUILD:
+- armv7-conda_cos7-linux-gnueabihf
+cdt_arch:
+- armv7l
+cdt_name:
+- cos7
 channel_sources:
-- conda-forge
+- e8035669acarmv7,conda-forge
 channel_targets:
-- conda-forge main
+- e8035669acarmv7 main
+docker_image:
+- e8035669/linux-anvil-armv7l
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -9,7 +17,7 @@ pin_run_as_build:
 python:
 - '2.7'
 python_abi_tag:
-- pypy39_pp73
+- pypy38_pp73
 python_impl:
 - '*'
 python_impl_version:
@@ -17,9 +25,9 @@ python_impl_version:
 python_implementation:
 - pypy
 python_version:
-- '3.9'
+- '3.8'
 target_platform:
-- win-64
+- linux-armv7l
 zip_keys:
 - - python
   - python_impl
