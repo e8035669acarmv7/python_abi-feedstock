@@ -7,8 +7,8 @@ python_abi_tag:
  - cp312
  - pypy38_pp73
  - pypy39_pp73
- - graalpy223_38_native
  - graalpy230_310_native
+ - graalpy231_310_native
 
 python_impl_version:
  - 3.7
@@ -19,8 +19,8 @@ python_impl_version:
  - 3.12
  - 7.3
  - 7.3
- - 22.3
  - 23.0
+ - 23.1
 
 python_version:
  - 3.7
@@ -31,7 +31,7 @@ python_version:
  - 3.12
  - 3.8
  - 3.9
- - 3.8
+ - 3.10
  - 3.10
 
 python_implementation:
