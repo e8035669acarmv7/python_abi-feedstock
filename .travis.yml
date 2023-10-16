@@ -37,12 +37,12 @@ matrix:
       arch: arm64
       dist: focal
 
-    - env: CONFIG=linux_aarch64_python_abi_taggraalpy223_38_nativepython_impl_version22.3python_implementationgraalpypython_version3.8 UPLOAD_PACKAGES=True PLATFORM=linux-aarch64 DOCKER_IMAGE=quay.io/condaforge/linux-anvil-aarch64
+    - env: CONFIG=linux_aarch64_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10 UPLOAD_PACKAGES=True PLATFORM=linux-aarch64 DOCKER_IMAGE=quay.io/condaforge/linux-anvil-aarch64
       os: linux
       arch: arm64
       dist: focal
 
-    - env: CONFIG=linux_aarch64_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10 UPLOAD_PACKAGES=True PLATFORM=linux-aarch64 DOCKER_IMAGE=quay.io/condaforge/linux-anvil-aarch64
+    - env: CONFIG=linux_aarch64_python_abi_taggraalpy231_310_nativepython_impl_version23.1python_implementationgraalpypython_version3.10 UPLOAD_PACKAGES=True PLATFORM=linux-aarch64 DOCKER_IMAGE=quay.io/condaforge/linux-anvil-aarch64
       os: linux
       arch: arm64
       dist: focal
@@ -87,12 +87,12 @@ matrix:
       arch: ppc64le
       dist: focal
 
-    - env: CONFIG=linux_ppc64le_python_abi_taggraalpy223_38_nativepython_impl_version22.3python_implementationgraalpypython_version3.8 UPLOAD_PACKAGES=True PLATFORM=linux-ppc64le DOCKER_IMAGE=quay.io/condaforge/linux-anvil-ppc64le
+    - env: CONFIG=linux_ppc64le_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10 UPLOAD_PACKAGES=True PLATFORM=linux-ppc64le DOCKER_IMAGE=quay.io/condaforge/linux-anvil-ppc64le
       os: linux
       arch: ppc64le
       dist: focal
 
-    - env: CONFIG=linux_ppc64le_python_abi_taggraalpy230_310_nativepython_impl_version23.0python_implementationgraalpypython_version3.10 UPLOAD_PACKAGES=True PLATFORM=linux-ppc64le DOCKER_IMAGE=quay.io/condaforge/linux-anvil-ppc64le
+    - env: CONFIG=linux_ppc64le_python_abi_taggraalpy231_310_nativepython_impl_version23.1python_implementationgraalpypython_version3.10 UPLOAD_PACKAGES=True PLATFORM=linux-ppc64le DOCKER_IMAGE=quay.io/condaforge/linux-anvil-ppc64le
       os: linux
       arch: ppc64le
       dist: focal

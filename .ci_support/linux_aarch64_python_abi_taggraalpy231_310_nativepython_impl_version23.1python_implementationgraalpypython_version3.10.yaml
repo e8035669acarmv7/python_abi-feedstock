@@ -1,3 +1,7 @@
+BUILD:
+- aarch64-conda_cos7-linux-gnu
+cdt_arch:
+- aarch64
 cdt_name:
 - cos7
 channel_sources:
@@ -5,7 +9,7 @@ channel_sources:
 channel_targets:
 - conda-forge main
 docker_image:
-- quay.io/condaforge/linux-anvil-ppc64le
+- quay.io/condaforge/linux-anvil-aarch64
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -13,17 +17,17 @@ pin_run_as_build:
 python:
 - '2.7'
 python_abi_tag:
-- graalpy223_38_native
+- graalpy231_310_native
 python_impl:
 - '*'
 python_impl_version:
-- '22.3'
+- '23.1'
 python_implementation:
 - graalpy
 python_version:
-- '3.8'
+- '3.10'
 target_platform:
-- linux-ppc64le
+- linux-aarch64
 zip_keys:
 - - python
   - python_impl
