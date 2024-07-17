@@ -1,0 +1,37 @@
+BUILD:
+- armv7-conda_cos7-linux-gnueabihf
+cdt_arch:
+- armv7l
+cdt_name:
+- cos7
+channel_sources:
+- e8035669acarmv7,conda-forge
+channel_targets:
+- e8035669acarmv7 main
+docker_image:
+- e8035669/linux-anvil-armv7l
+pin_run_as_build:
+  python:
+    min_pin: x.x
+    max_pin: x.x
+python:
+- '2.7'
+python_abi_tag:
+- graalpy223_38_native
+python_impl:
+- '*'
+python_impl_version:
+- '22.3'
+python_implementation:
+- graalpy
+python_version:
+- '3.8'
+target_platform:
+- linux-armv7l
+zip_keys:
+- - python
+  - python_impl
+- - python_abi_tag
+  - python_version
+  - python_impl_version
+  - python_implementation
